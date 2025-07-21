@@ -100,6 +100,8 @@ function Plan({
 }) {
   return (
     <section
+      data-plan={name}
+      data-highlight={featured}
       className={clsx(
         "flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5",
         featured ? "order-first bg-gray-900 lg:order-none" : "bg-white"
@@ -228,7 +230,7 @@ export function Pricing() {
   }));
 
   return (
-    <section
+    <div
       id="pricing"
       aria-labelledby="pricing-title"
       className="border-t border-gray-200 bg-gray-100 py-20 sm:py-32"
@@ -299,6 +301,6 @@ export function Pricing() {
           ))}
         </div>
       </Container>
-    </section>
+    </div>
   );
 }
