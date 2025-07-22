@@ -15,7 +15,7 @@ const plans = [
     description:
       "You’re new to investing but want to do it right. Get started for free.",
     button: {
-      label: "Get started for free",
+      label: "Get started for free 123",
       href: "/register",
     },
     features: [
@@ -48,7 +48,7 @@ const plans = [
   {
     name: "VIP",
     featured: true,
-    price: { Monthly: "$200", Annually: "$1,990" },
+    price: { Monthly: "$199", Annually: "$1,990" },
     description:
       "You’ve got a huge amount of assets but it’s not enough. To the moon.",
     button: {
