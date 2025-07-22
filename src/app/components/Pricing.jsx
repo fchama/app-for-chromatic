@@ -47,7 +47,7 @@ const plans = [
   },
   {
     name: "VIP",
-    featured: false,
+    featured: true,
     price: { Monthly: "$200", Annually: "$1,990" },
     description:
       "You’ve got a huge amount of assets but it’s not enough. To the moon.",
@@ -211,9 +211,9 @@ export function Pricing() {
           planName === "investor" ||
           planName === "vip"
         ) {
-          setSelectedPlan(
-            planParam.charAt(0).toUpperCase() + planParam.slice(1).toLowerCase()
-          );
+          // setSelectedPlan(
+          //   planParam.charAt(0).toUpperCase() + planParam.slice(1).toLowerCase()
+          // );
         }
       }
 
