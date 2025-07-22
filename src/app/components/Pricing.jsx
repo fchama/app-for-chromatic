@@ -15,7 +15,7 @@ const plans = [
     description:
       "You’re new to investing but want to do it right. Get started for free.",
     button: {
-      label: "Get started for free",
+      label: "Get started for free 123",
       href: "/register",
     },
     features: [
@@ -211,9 +211,9 @@ export function Pricing() {
           planName === "investor" ||
           planName === "vip"
         ) {
-          setSelectedPlan(
-            planParam.charAt(0).toUpperCase() + planParam.slice(1).toLowerCase()
-          );
+          // setSelectedPlan(
+          //   planParam.charAt(0).toUpperCase() + planParam.slice(1).toLowerCase()
+          // );
         }
       }
 
