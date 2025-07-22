@@ -48,7 +48,7 @@ const plans = [
   {
     name: "VIP",
     featured: false,
-    price: { Monthly: "$199", Annually: "$1,990" },
+    price: { Monthly: "$200", Annually: "$1,990" },
     description:
       "You’ve got a huge amount of assets but it’s not enough. To the moon.",
     button: {
